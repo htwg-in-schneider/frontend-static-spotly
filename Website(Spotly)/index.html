@@ -10,7 +10,16 @@
 </head>
 
 <body>
-<div class="background"></div>
+<!-- Hintergrund -->
+<div class="background">
+    <!-- Ellipsen -->
+    <div class="ellipse ellipse1"></div>
+    <div class="ellipse ellipse2"></div>
+    <div class="ellipse ellipse3"></div>
+
+    <!-- Das Hintergrundbild -->
+    <img src="images/background.jpeg" alt="Background" class="bg-image">
+</div>
 <div class="logo-container">
     <img src="images/logo.png" alt="Spotly Logo" class="logo-outside" />
 </div>
@@ -21,24 +30,32 @@
         <a href="#">Karte</a>
         <a href="#">Über uns</a>
         <a href="#">Support</a>
+        <a href="#" class="search-icon">
+            <img src="images/search.svg" alt="Suche">
+        </a>
     </nav>
 </header>
+
 <button class="login-btn">Log In</button>
 
 
 <main>
-    <section class="intro">
-        <div class="intro-box">
+    <section class="intro-wave">
+        <div class="wave-text">
             <h2>Unsere Idee hinter Spotly:</h2>
             <p>
-                Spotly ist unsere Art, Konstanz neu zu entdecken durch echte Tipps von echten Menschen.
-                Wir, Efe-liz und Moritz, haben die App entwickelt, weil wir selbst gemerkt haben,
-                wie schwer es ist, gute Orte zu finden, wenn man neu in der Stadt ist.
-                Auf Spotly teilen Locals ihre Lieblingsplätze – von kleinen Cafés über Aussichtspunkte bis zu geheimen Spots am See.
+                Spotly ist unsere Art, Konstanz neu zu entdecken! Durch echte Tipps von echten Menschen.
+                Wir, Efe-liz und Moritz, haben Spotly entwickelt, weil wir gemerkt haben, wie schwer es ist, gute Orte zu finden, wenn man neu in der Stadt ist.
+                Auf Spotly teilen Locals ihre Lieblingsplätze, von kleinen Cafés bis zu geheimen Spots am See.
             </p>
         </div>
+        <svg class="wave" viewBox="0 0 1440 320">
+            <path fill="#e6f4ff" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,197.3C640,192,800,160,960,154.7C1120,149,1280,171,1360,181.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+        </svg>
     </section>
-
+    <section class="slogan">
+        <h1>Entdecke Konstanz neu!</h1>
+    </section>
     <section class="spots">
         <a href="#" class="spots-link">>> hier mehr Spots entdecken</a>
         <div class="spots-container">
