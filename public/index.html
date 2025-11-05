@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/svg+xml" href="logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,28 +39,53 @@
 
 <button class="login-btn">Log In</button>
 
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/park.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/shop.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/event.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
 <main>
-    <section class="intro-wave">
-        <div class="wave-text">
-            <h2>Unsere Idee hinter Spotly:</h2>
-            <p>
-                Spotly ist unsere Art, Konstanz neu zu entdecken! Durch echte Tipps von echten Menschen.
-                Wir, Efe-liz und Moritz, haben Spotly entwickelt, weil wir gemerkt haben, wie schwer es ist, gute Orte zu finden, wenn man neu in der Stadt ist.
-                Auf Spotly teilen Locals ihre Lieblingsplätze, von kleinen Cafés bis zu geheimen Spots am See.
-            </p>
-        </div>
-        <svg class="wave" viewBox="0 0 1440 320">
-            <path fill="#e6f4ff" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,197.3C640,192,800,160,960,154.7C1120,149,1280,171,1360,181.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-        </svg>
-    </section>
-
     <section class="slogan">
         <h1>Entdecke Konstanz neu!</h1>
     </section>
+    <section class="intro-wave"> ... </section>
+    <div class="wave-text">
+        <h2>Unsere Idee hinter Spotly:</h2>
+        <p>
+            Spotly ist unsere Art, Konstanz neu zu entdecken! Durch echte Tipps von echten Menschen.
+            Wir, Efe-liz und Moritz, haben Spotly entwickelt, weil wir gemerkt haben, wie schwer es ist, gute Orte zu finden, wenn man neu in der Stadt ist.
+            Auf Spotly teilen Locals ihre Lieblingsplätze, von kleinen Cafés bis zu geheimen Spots am See.
+        </p>
+    </div>
+    <svg class="wave" viewBox="0 0 1440 320">
+        <path fill="#e6f4ff" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,197.3C640,192,800,160,960,154.7C1120,149,1280,171,1360,181.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>
+    </section>
+    <a href="#" class="spots-link">>> hier mehr Spots entdecken</a>
+    <section class="slogan"> ... </section>
 
+    <!-- Scroll-Zone -->
+    <section class="scroll-space"></section>
+
+    <!-- Jetzt ganz unten: -->
     <section class="spots">
-        <a href="#" class="spots-link">>> hier mehr Spots entdecken</a>
         <div class="spots-container">
             <div class="spot-card">
                 <img src="images/park.jpg" alt="Natur & Aussicht">
@@ -79,14 +105,11 @@
             </div>
         </div>
     </section>
-
-    <!-- 👇 Leere Scroll-Zone für den Hintergrund -->
-    <section class="scroll-space"></section>
 </main>
-
 
 <footer>
     <p>©️ 2025 Spotly – von Efe-liz & Moritz</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
