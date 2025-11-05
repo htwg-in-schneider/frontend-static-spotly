@@ -366,4 +366,10 @@ footer {
         font-size: 14px;
         padding: 20px;
     }
+
+
+}
+.scroll-space {
+    height: 240vh; /* wie lang der Scrollbereich ist */
+    background: transparent; /* kein Inhalt sichtbar */
 }
