@@ -181,6 +181,7 @@ body {
     max-width: 650px;
     position: relative;
     z-index: 2;
+    margin-top: 1000px;
 }
 
 .wave-text h2 {
@@ -423,6 +424,5 @@ footer {
         font-size: 14px;
         padding: 20px;
     }
-
 }
 
